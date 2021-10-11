@@ -418,14 +418,22 @@ input[name="r"]{
     margin-top: 10px;
 
 }
-.button-group .det{
+.button-group .det-Dart,
+.button-group .det-Nave,
+.button-group .det-Sabre,
+.button-group .det-Cap,
+.button-group .det-Thor,
+.button-group .det-Manopla,
+.button-group .det-Var,
+.button-group .det-Capa,
+.button-group .det-Pedra{
     background-color: #1976d2;
     font-size: 14px;
     padding: 8px 14px;
     border-radius: 5px;
     text-decoration: none;
     letter-spacing: 1px;
-    color: #fff;
+    
 }
 .button-group .con{
     background-color: #f2533a;
@@ -434,7 +442,7 @@ input[name="r"]{
     border-radius: 5px;
     text-decoration: none;
     letter-spacing: 1px;
-    color: #fff;
+    
 }
 .button-group .card:hover{
     background-color: #222;
