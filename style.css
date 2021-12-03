@@ -334,7 +334,7 @@ input[name="r"]{
     visibility: hidden;
 }
 .slides{
-    width: 500%;
+    width: 510%;
     height: 100%;
     display: flex;
 }
@@ -355,15 +355,25 @@ input[name="r"]{
 #r3:checked ~ .s1{
     margin-left: -40%;
 }
+#r4:checked ~ .s1{
+    margin-left: -60%;
+}
+#r5:checked ~.s1{
+    margin-left: -80%;
+}
 .slide img, 
 .slide2 img,
-.slide3 img{
+.slide3 img,
+.slide4 img,
+.slide5 img{
     transform: scale(1);
     transition: 0.3s ease-in-out;
 }
 .slide:hover img,
 .slide2:hover img,
-.slide3:hover img {
+.slide3:hover img,
+.slide4:hover img,
+.slide5:hover img {
     transform: scale(1.1);
 }
 .card{
