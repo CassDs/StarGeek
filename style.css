@@ -40,11 +40,19 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 20px #000;
 }
+.containerI{
+    background: #fff;
+}
 
 @keyframes fade{
     to{opacity: 1;}
 }
 .container{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.containerC{
     width: 100%;
     height: 100%;
     overflow: auto;
@@ -113,11 +121,15 @@ a{
     display: inline-block;
     text-shadow: 0 0 5px white;
 }
+.big-containerC .containerC header a{
+    color: #fff;
+}
 .active{
     background: teal;
     border-radius: 20px;
 }
-a:hover{
+a:hover,
+.big-containerC .containerC header a:hover{
     color: turquoise;
 }
 section{
